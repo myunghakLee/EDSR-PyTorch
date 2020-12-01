@@ -59,6 +59,12 @@ cd src       # You are now in */EDSR-PyTorch/src
 sh demo.sh
 ```
 
+```bash
+cd src       # You are now in */EDSR-PyTorch/src
+python main.py --data_test Set5+Set14+B100+Urban100 --scale 4 --pre_train {your model} --test_only --dir_data dataset
+```
+
+
 You can find the result images from ```experiment/test/results``` folder.
 
 | Model | Scale | File name (.pt) | Parameters | ****PSNR** |
